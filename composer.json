@@ -11,8 +11,9 @@
     ],
     "require": {
         "pacifica/userinterface-core": "^0.0.1",
-	"cweagans/composer-patches": "^1.6.0",
-	"drupal-composer/drupal-scaffold": "^2.0.0"
+        "acquia/lightning": "^4.0",
+        "cweagans/composer-patches": "^1.6.0",
+        "drupal-composer/drupal-scaffold": "^2.0.0"
     },
     "require-dev": {
 	    "drush/drush": "^9.0"
