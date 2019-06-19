@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "pacifica/userinterface-core": "^0.0.1",
-        "acquia/lightning": "^4.0",
+        "pacifica/userinterface-core": "^0.0.3",
+        "acquia/lightning": "dev-fix-3062585-update-lightning-api",
         "cweagans/composer-patches": "^1.6.0",
         "drupal-composer/drupal-scaffold": "^2.0.0"
     },
@@ -59,6 +59,11 @@
 	    "assets": {
 		    "type": "composer",
 		    "url": "https://asset-packagist.org"
+	    },
+	    "lightning-fix": {
+		    "type": "vcs",
+		    "url": "https://github.com/dmlb2000/lightning.git",
+		    "no-api": true
 	    }
     },
     "minimum-stability": "dev",
